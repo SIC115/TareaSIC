@@ -7,6 +7,19 @@
  *
  * @author user
  */
-public class NewClass {
-    
+import javax.swing.*;
+public class NewClass{
+public static void main ( String [] args ) {
+Ventana ven = new Ventana ( ) ;
+ven.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE) ;
+ven.show( ) ;
+}
+
+}
+
+
+class Ventana extends JFrame{
+public Ventana ( ) {
+setSize(300 ,200) ;
+}
 }
